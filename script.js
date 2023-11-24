@@ -44,10 +44,10 @@ let menuItems = document.querySelector('.menu__items')
 
 
 let menu = [
-    new Pizza('/assets/images/cheeseburger-card.jpg', 'Чизбургер-пицца', 'тонкое', 's', 395, 500, 700, true, false, false, false, false),
-    new Pizza('/assets/images/cheesy.jpg', 'Сырная', 'тонкое','s', 450, 600, 750, false, true, false, false, false ),
-    new Pizza('/assets/images/asianshrimp.jpg', 'Креветки по-азиатски', 'тонкое', 'm', 130, 290, 420, false, false, false, false, false),
-    new Pizza('/assets/images/cheesychick.jpg', 'Сырный цыпленок', 'тонкое', 's', 395, 500, 600, false, false, false, false, false),
+    new Pizza('assets/images/cheeseburger-card.jpg', 'Чизбургер-пицца', 'тонкое', 's', 395, 500, 700, true, false, false, false, false),
+    new Pizza('assets/images/cheesy.jpg', 'Сырная', 'тонкое','s', 450, 600, 750, false, true, false, false, false ),
+    new Pizza('assets/images/asianshrimp.jpg', 'Креветки по-азиатски', 'тонкое', 'm', 130, 290, 420, false, false, false, false, false),
+    new Pizza('assets/images/cheesychick.jpg', 'Сырный цыпленок', 'тонкое', 's', 395, 500, 600, false, false, false, false, false),
     new Pizza('https://dodopizza-a.akamaihd.net/static/Img/Products/afccc45d4d5e40fda6d1a8a3de31f6eb_292x292.webp', 'Диабло', 'тонкое', 'm', 579, 878, 1118, true, false, true, true, false),
     new Pizza('https://dodopizza-a.akamaihd.net/static/Img/Products/3acbbf877c35443c88765e52c932f8d3_584x584.webp', 'Ветчина и Грибы','традиционное', 'm', 479, 700, 858, true, false, false, false, false ),
     new Pizza('https://dodopizza-a.akamaihd.net/static/Img/Products/1bc70786fe494d1686f613726cc18a70_292x292.webp', 'Четыре сезона', 'традиционное', 'm', 479, 650, 810, true,  false, false, false, false),
