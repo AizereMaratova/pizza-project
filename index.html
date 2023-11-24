@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel='stylesheet'href = '/style.css'>
+</head>
+<body>
+        <div class = "wrapper">
+            <header>
+                <div class="logo">
+                    <img src = "assets/images/pizza.png" alt="" class="logo-img">
+                    <div class = "logo__text">
+                        <p class = "logo__title"> PIZZA </p>
+                        <p class = "logo__subtitle"> самая вкусная пицца во вселенной </p>
+                    </div>
+                </div>
+                <div class = "shopping-cart-min" onclick="toggleCart()">
+                    <div class = "shopping__value">
+                        <p class = "shopping-cart-min__total">520</p>
+                        <p class = "rubles__value"> ₽ </p>
+                    </div>
+                    <div class = "shopping-cart-min__wrapper__amount">
+                        <img src = "assets/images/shopping-cart.png" class="shopping-cart__img">
+                        <p class = "shopping-cart-min__amount">3</p>
+                    </div>
+                </div>
+
+
+                <div class = 'shopping-cart'>
+                    <div class = 'shopping-cart__header'>
+                        <img src="assets/images/shopping-cart__logo.png" alt="" class="shopping-cart__logo">
+                        <p class="shopping-cart__title">Корзина</p>
+                        <div class="shopping-cart__clearout">
+                            <img src="assets/images/shopping-cart__trash.png" alt="" class="shopping-cart__trash">
+                            <p class="shopping-cart__clear">Очистить корзину</p>
+                        </div>
+                    </div>
+                    <div class="shopping-cart__main">
+                    </div>
+                    <div class="shopping-cart__footer">
+                        <div class="cart-item__quantity">
+                            <p class="cart-item__total">Всего пицц:</p>
+                            <p class="cart-item__sum">3 шт.</p>
+                            <p class="cart-item__order">Сумма заказа:</p>
+                            <p class="cart-item__cost">900 ₽</p>
+                        </div>
+                        <div class="shopping-cart__bottom">
+                            <div class="shopping-cart__back">
+                                <p class="shopping-cart__Goback">Вернуться назад</p>
+                            </div>
+                            <div class="shopping-cart__payment">
+                                <p class="shopping-cart__paynow">Оплатить сейчас</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class = "filter-and-sort">
+                    <div class = "filter">
+                        <button class = "filter-btn filter-btn_active" id="filter-all">Все</button>
+                        <button class = "filter-btn" id="filter-meat">Мясные</button>
+                        <button class = "filter-btn" id="filter-vegan">Вегетарианская</button>
+                        <button class = "filter-btn" id="filter-bbq">Гриль</button>
+                        <button class = "filter-btn" id="filter-hot">Острые</button>
+                        <button class = "filter-btn" id="filter-closing">Закрытые</button>         
+                    </div>
+                    <div class = "sort">           
+                       <img src="/assets/images/sort-arrow.svg" alt="" class="sort__arrow">
+                       <p class = "sort__text">Сортировка по:</p>
+                       <p class = "sort__text2">популярности</p>
+                       <div class="sort___selection">
+                        <input type="button" class="sort__selection__item sort__selection__item_active" value="популярности">
+                        <input type="button" class="sort__selection__item" value="по цене">
+                        <input type="button" class="sort__selection__item" value="по алфавиту">
+                       </div>
+                    </div>
+
+                </div>
+                <div class = "menu">
+                    <h3 class="menu__title"> Все пиццы </h3>
+                    <div class="menu__items">
+                    </div>
+                </div>
+            </main>
+
+        </div>
+        <script src="
+https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
+"></script>
+
+        <script src="/script.js"></script>
+</body>
+</html>
